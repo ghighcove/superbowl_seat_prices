@@ -14,7 +14,7 @@ Fast forward to today: the average Super Bowl ticket now costs more than many Am
 
 ## The Raw Numbers Tell a Dramatic Story
 
-![Super Bowl Average Ticket Prices: 1967-2026](../exports/trend_nominal_vs_adjusted.png)
+![Super Bowl Average Ticket Prices: 1967-2026](https://raw.githubusercontent.com/ghighcove/superbowl_seat_prices/master/exports/trend_nominal_vs_adjusted.png)
 *Nominal prices (blue) show the sticker shock. Inflation-adjusted prices (red dotted) reveal the true cost increase.*
 
 Three distinct eras emerge from the data:
@@ -31,7 +31,7 @@ That $12 ticket from 1967? In today's dollars, it's worth about $116. You still 
 
 ## The Resale Revolution
 
-![Face Value vs. Secondary Market: The Resale Premium](../exports/face_vs_resale.png)
+![Face Value vs. Secondary Market: The Resale Premium](https://raw.githubusercontent.com/ghighcove/superbowl_seat_prices/master/exports/face_vs_resale.png)
 *The gap between what the NFL charges and what fans actually pay has grown dramatically. Percentages show the resale markup over face value.*
 
 Here's something most fans don't realize: the NFL only sells about 75% of Super Bowl tickets, and those go to teams, sponsors, and league partners at face value. The rest hit the secondary market, where prices are set by supply and demand.
@@ -44,7 +44,7 @@ The NFL captures the face value. The market captures everything above it. Whethe
 
 ## What Does "Average" Really Mean?
 
-![Estimated Ticket Price Distributions](../exports/histogram_selected_years.png)
+![Estimated Ticket Price Distributions](https://raw.githubusercontent.com/ghighcove/superbowl_seat_prices/master/exports/histogram_selected_years.png)
 *Simulated price distributions for four Super Bowls spanning 44 years. Note: these are estimates based on reported price ranges, not observed transactions.*
 
 A single "average price" hides enormous variation. In 1980, there was essentially one price tier — $30 got you in, period. The distribution was tight because there was nothing to distribute.
@@ -57,7 +57,7 @@ This matters for how you interpret "average ticket price" statistics. The median
 
 ## Outpacing Everything
 
-![Ticket Price Growth vs. General Inflation](../exports/yoy_growth_vs_cpi.png)
+![Ticket Price Growth vs. General Inflation](https://raw.githubusercontent.com/ghighcove/superbowl_seat_prices/master/exports/yoy_growth_vs_cpi.png)
 *Blue bars show year-over-year ticket price changes; the orange line shows CPI inflation. Ticket prices routinely jump 20-50% in a single year while general inflation runs at 2-4%.*
 
 The most striking chart in this analysis compares ticket price growth to general inflation. The orange CPI line hugs the bottom of the chart while ticket price bars tower above it.
@@ -70,7 +70,7 @@ In only a handful of years did ticket prices *decrease* — and even those drops
 
 ## A Decade-by-Decade View
 
-![Super Bowl Ticket Prices by Era](../exports/era_comparison.png)
+![Super Bowl Ticket Prices by Era](https://raw.githubusercontent.com/ghighcove/superbowl_seat_prices/master/exports/era_comparison.png)
 *Blue bars show nominal prices; red bars show the same prices converted to 2025 dollars. The gap narrows for recent eras because recent dollars need less inflation adjustment.*
 
 When you group the data by era, the story crystallizes. The 1967-1979 era averaged $18 per ticket nominally — about $117 in today's money. The 2020-2026 era averages over $7,300, which is still about $7,800 after inflation adjustment.
@@ -83,7 +83,7 @@ The jump from each era to the next has been accelerating. The 1980s were 3x the 
 
 ## The Full Picture
 
-![Distribution of All Adjusted Prices](../exports/histogram_all_years_pooled.png)
+![Distribution of All Adjusted Prices](https://raw.githubusercontent.com/ghighcove/superbowl_seat_prices/master/exports/histogram_all_years_pooled.png)
 *Nearly half of all Super Bowls in history had inflation-adjusted average prices under $500. The 2020s are dramatic outliers.*
 
 When you pool all 60 Super Bowls into a single histogram, the skew is unmistakable. Nearly half of all games in history — adjusted to 2025 dollars — had average ticket prices under $500. The median is around $520, while the mean is pulled to roughly $1,600 by the extreme outliers of the 2020s.
@@ -110,7 +110,7 @@ All prices are sourced from Casino.org, TickPick, Yahoo Sports, and Marco News/U
 
 The simulated price distributions use a log-normal model fitted to reported low, average, and high price points. These are estimates of what the distribution *likely* looked like, not observed transaction data.
 
-The complete dataset, code, and interactive versions of all charts are available in the companion Jupyter notebook: [link to GitHub/nbviewer].
+The complete dataset, code, and interactive versions of all charts are available in the companion Jupyter notebook: [GitHub repository](https://github.com/ghighcove/superbowl_seat_prices).
 
 ---
 
