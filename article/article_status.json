@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "project": "superbowl_seat_prices",
+  "project_display_name": "Super Bowl Economics",
+  "category": "Economics",
+  "generated_at": "2026-02-17T13:12:25",
+  "articles": [
+    {
+      "id": "20260209_superbowl_seat_prices",
+      "slug": "superbowl_seat_prices",
+      "draft_file": "article/drafts/20260209_superbowl_seat_prices.md",
+      "preview_html": "article/medium_ready.html",
+      "title": "From $12 to $8,000: The Astonishing Rise of Super Bowl Ticket Prices",
+      "subtitle": "A data-driven look at 60 years of the biggest game in American sports — and what the numbers really mean when you adjust for inflation.",
+      "category": "Economics",
+      "tags": [
+        "Super Bowl",
+        "Sports Economics",
+        "Data Analysis",
+        "NFL",
+        "Inflation"
+      ],
+      "date": "2026-02-09",
+      "status": "ready",
+      "draft": false,
+      "platforms_published": [],
+      "platform_urls": {},
+      "publish_dates": {},
+      "word_count": 1360,
+      "images_ready": false,
+      "notes": ""
+    }
+  ],
+  "summary": {
+    "total": 1,
+    "published": 0,
+    "ready": 1,
+    "draft": 0,
+    "archived": 0
+  }
+}
