@@ -14,7 +14,7 @@ from pathlib import Path
 
 # Add shared tools to path
 ROOT = Path(__file__).parent.parent
-SHARED = Path("G:/ai/_shared_tools")
+SHARED = ROOT.parent / "_shared_tools"
 if str(SHARED) not in sys.path:
     sys.path.insert(0, str(SHARED))
 

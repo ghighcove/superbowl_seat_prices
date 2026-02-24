@@ -3,3 +3,4 @@ __pycache__/
 .env
 *.pyc
 .claude/
+tasks/context.md
